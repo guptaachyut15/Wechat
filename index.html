@@ -21,32 +21,28 @@
     <script defer src="scripts/client.js"></script>
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar">
       <div class="container-fluid">
-        <img
-          class="logo"
-          src="chat.png"
-          alt="Logo"
-          width="30"
-          height="24"
-          class="d-inline-block align-text-top"
-        />
+        <div class="logo-container">
+          <img class="logo" src="chat.png" alt="Logo" width="30" height="30" />
+          <p style="color: rgb(17, 17, 17); margin-top: 10px"><b>WeChat</b></p>
+        </div>
       </div>
     </nav>
-    <div class="container-fluid container">
-      <div class="message left">Hi!How are you</div>
-      <div class="message center">XYZ joined the chat</div>
-      <div class="message right">Great XYZ! How about you</div>
-    </div>
+    <div class="container-fluid chat-container" id="chatbox"></div>
     <div class="send">
       <form id="send-container">
-        <input
-          type="text"
-          name="messageInp"
-          class="form-control"
-          id="messageInp"
-        />
-        <button type="submit" class="btn btn-primary">Send</button>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            name="messageInp"
+            class="form-control"
+            id="messageInp"
+            placeholder="Type your message here"
+            autocomplete="off"
+          />
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
       </form>
     </div>
   </body>
