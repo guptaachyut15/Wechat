@@ -3,7 +3,7 @@ body {
   }
 
   .navbar {
-    background-color: #f6b104; /* Change navbar color */
+    background-color: #f6b104;
     text-align: center; /* Center align the content */
   }
 
@@ -25,7 +25,7 @@ body {
     border-width: 2px;
     border-radius: 8px;
     padding: 10px;
-    margin-top: 0px;
+    margin-top: 5px;
     max-height: 400px;
     overflow-y: auto;
     background-color: #f6f4f3;
@@ -52,7 +52,7 @@ body {
   }
 
   .send {
-    margin-top: 0px;
+    margin-top: 5px;
   }
 
   #messageInp {
