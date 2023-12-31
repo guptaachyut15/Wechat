@@ -1,4 +1,4 @@
-var socket = io("http://localhost:8080");
+var socket = io("https://wechat-backend-production-0cd4.up.railway.app/");
 const audio = new Audio("../ting.mp3");
 
 let form = document.getElementById("send-container");
