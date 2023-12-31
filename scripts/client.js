@@ -1,4 +1,4 @@
-var socket = io("https://wechat-backend-production-0cd4.up.railway.app/");
+var socket = io("https://wechat-backend-qoto.onrender.com");
 const audio = new Audio("../ting.mp3");
 
 let form = document.getElementById("send-container");
